@@ -4,16 +4,16 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
 import { getDatabase, ref, get, set, update } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
 
-// Your Firebase Configuration (NEW)
+// Your NEW Firebase Configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCR4rRs6fcjxWFr8QabaMtzDEhFmjTim9M",
-  authDomain: "phym-974b9.firebaseapp.com",
-  databaseURL: "https://phym-974b9-default-rtdb.firebaseio.com",
-  projectId: "phym-974b9",
-  storageBucket: "phym-974b9.firebasestorage.app",
-  messagingSenderId: "469546678091",
-  appId: "1:469546678091:web:eb4352a8d8af3ebd8f9ace",
-  measurementId: "G-13XJ6DC72H"
+  apiKey: "AIzaSyAQ3kvWjHfORRjsWI9LWYI_CPUAXi9Mub4",
+  authDomain: "zaldy-623eb.firebaseapp.com",
+  databaseURL: "https://zaldy-623eb-default-rtdb.firebaseio.com/",
+  projectId: "zaldy-623eb",
+  storageBucket: "zaldy-623eb.firebasestorage.app",
+  messagingSenderId: "1027139635306",
+  appId: "1:1027139635306:web:2849cb6b4ee8147c226213",
+  measurementId: "G-0SZEEBEVYT"
 };
 
 // Initialize Firebase
